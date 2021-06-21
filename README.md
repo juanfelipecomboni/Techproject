@@ -1,11 +1,11 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://thestartup.netlify.app">
-    <img alt="Startup Logo" src="/src/images/startup-logo-black.svg" width="200" />
+    <img alt="TechXpert Logo" src="/src/images/TechXpert-Logo2.png" width="200" />
   </a>
 </p>
 <h1 align="center">
-  Startup
+  Tech Expert 
 </h1>
 
 Kick off your project with this startup boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
@@ -83,3 +83,4 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+"# Techproject" 
