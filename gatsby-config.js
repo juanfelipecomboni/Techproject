@@ -11,10 +11,10 @@ module.exports = {
     title: "TechXpert",
     titleTemplate: "%s | Savvy in all IT Solutions",
     description: " Troubleshooting and resolving all your technology needs.",
-    siteUrl: "https://thestartup.netlify.com",
+    siteUrl: "",
     author: "Juan Felipe Comboni",
-    authorSite: "https://www.morganbaker.dev",
-    image: "/yellow-metal-design-decoration.jpg",
+    authorSite: "",
+    image: "",
     twitterUsername: "@twitter",
   },
   plugins: [

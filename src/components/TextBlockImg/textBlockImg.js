@@ -5,7 +5,7 @@ import styled from "styled-components"
 
 const TextBlockImg = ({ title, children, subtitle, id }) => {
   const data = useStaticQuery(graphql`{
-  file(relativePath: {eq: "purple-bg.jpg"}) {
+  file(relativePath: {eq: "pic1.jpg"}) {
     childImageSharp {
       gatsbyImageData(quality: 90, layout: FULL_WIDTH)
     }

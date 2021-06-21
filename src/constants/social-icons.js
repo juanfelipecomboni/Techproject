@@ -9,7 +9,7 @@ export default [
   },
   {
     icon: <FaGithub />,
-    url: "https://github.com/juanfelipecomboni",
+    url: "https://github.com/juanfelipecomboni/Techproject",
     name: "GitHub",
   },
 ]

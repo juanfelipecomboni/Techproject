@@ -4,11 +4,13 @@ export const BannerStyles = styled.section`
   .gatsby-image-wrapper {
     height: 100vh;
     color: #fff;
-    background: rgba(0, 0, 0, .6);
     position: relative;
+    
+
   }
 
   .hero-content {
+    
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -38,6 +40,7 @@ export const BannerStyles = styled.section`
         background: -webkit-linear-gradient(135deg, orange 50%, cyan);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        
       }
     }
 

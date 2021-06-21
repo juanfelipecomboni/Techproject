@@ -5,18 +5,18 @@ import { FaTwitter, FaLinkedin } from "react-icons/fa"
 export const mainMenuItems = [  
   {
     path: "/",
-    title: "home",
+    title: "Home",
   },
   {
-    path: "/about",
+    path: "/#about",
     title: "about",
   },
   {
-    path: "/packages",
+    path: "#packages",
     title: "packages",
   },
   {
-    path: "/contact",
+    path: "#contact",
     title: "contact",
   },
 ]
@@ -27,21 +27,11 @@ export const socialMenuItems = [
     url: "https://www.linkedin.com/in/felipe-comboni-2b988a3b/",
     name: "LinkedIn",
   },
-  {
-    icon: <FaTwitter />,
-    url: "https://www.twitter.com",
-    name: "Twitter",
-  },
+ 
   {
     icon: <DiGithubBadge />,
-    url: "https://github.com/bagseye",
+    url: "https://github.com/juanfelipecomboni",
     name: "GitHub",
   },
 ]
 
-export const footerMenuItems = [
-  {
-    path: "/privacy",
-    title: "privacy",
-  },
-]

@@ -16,6 +16,7 @@ const Layout = ({ children }) => {
       <Navbar Logo={Logo} />
       <div className="layout">{children}</div>
       <Footer Logo={Logo} />
+
     </>
   )
 }

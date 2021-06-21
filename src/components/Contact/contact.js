@@ -80,7 +80,7 @@ const ContactWrapper = styled.section`
 
     h2 {
       text-align: left;
-      background: -webkit-linear-gradient(135deg, orange 50%, cyan);;
+      background: -webkit-linear-gradient(135deg, orange 50%, cyan);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
 
@@ -155,7 +155,7 @@ const ContactWrapper = styled.section`
           left: 0px;
           bottom: -1px;
           height: 1px;
-          background: linear-gradient(90deg, #f441a5, #03a9f4);
+          background: -webkit-linear-gradient(135deg, orange 50%, cyan);
           width: 100%;
           transform: translateX(-100%);
           transition: transform 0.3s ease;
