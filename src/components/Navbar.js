@@ -11,7 +11,7 @@ const Navbar = ({ Logo }) => {
   return (
     <NavStyles>
       <div className="masthead flex-container">
-        <img src={Logo} alt="Startup Logo" />
+        <img src={Logo} alt="Tech Xpert logo" />
         <button
           className={isOpen ? "toggle-btn toggle-btn-active" : "toggle-btn"}
           type="button"
@@ -37,7 +37,7 @@ const Navbar = ({ Logo }) => {
 }
 
 export const NavStyles = styled.nav`
-  position: fixed;
+  position: sticky;
   z-index: 10;
   top: 0;
   width: 100%;
@@ -69,7 +69,7 @@ export const NavStyles = styled.nav`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: fixed;
+    position: sticky;
     text-align: center;
     background: linear-gradient(45deg, #060c21, #0d0139);
     margin: 0;
@@ -92,18 +92,21 @@ export const NavStyles = styled.nav`
       a {
         text-decoration: none;
         text-transform: capitalize;
+
         color: #fff;
         transition: 0.3s;
 
         &.active {
-          color: #e609b5;
+          color: Orange; 
         }
       }
       &:hover {
         cursor: pointer;
         a {
-          color: #e609b5;
+          color: var(--primaryColor);
+          
         }
+        
       }
     }
 

@@ -2,7 +2,7 @@ import React from "react"
 import { DiGithubBadge } from "react-icons/di"
 import { FaTwitter, FaLinkedin } from "react-icons/fa"
 
-export const mainMenuItems = [
+export const mainMenuItems = [  
   {
     path: "/",
     title: "home",
@@ -24,7 +24,7 @@ export const mainMenuItems = [
 export const socialMenuItems = [
   {
     icon: <FaLinkedin />,
-    url: "https://www.linkedin.com/in/morgan-baker-developer-inverness",
+    url: "https://www.linkedin.com/in/felipe-comboni-2b988a3b/",
     name: "LinkedIn",
   },
   {
@@ -43,9 +43,5 @@ export const footerMenuItems = [
   {
     path: "/privacy",
     title: "privacy",
-  },
-  {
-    path: "/cookies",
-    title: "cookies",
   },
 ]

@@ -11,6 +11,7 @@ const TypographyStyles = createGlobalStyle`
   h6 {
     font-weight: 900;
     line-height: 1.4;
+    
   }
 
   h1,
@@ -19,6 +20,7 @@ const TypographyStyles = createGlobalStyle`
     font-weight: 400;
     letter-spacing: -1px;
     margin: 1rem 0;
+    
 
     @media (min-width: 768px) {
       font-size: 1.6rem;

@@ -36,6 +36,19 @@ const Contact = ({ title, subtitle, id }) => {
           </div>
 
           <div className="input-area">
+            <input
+              type="PhoneNumber"
+              name="Phone Number"
+              aria-label="Phone Number"
+              required
+              autoComplete="off"
+            />
+            <label className="label-name" for="PhoneNnumber">
+              <span className="content-name">Phone Number</span>
+            </label>
+          </div>
+
+          <div className="input-area">
             <textarea
               type="text"
               name="message"
@@ -67,7 +80,7 @@ const ContactWrapper = styled.section`
 
     h2 {
       text-align: left;
-      background: -webkit-linear-gradient(45deg, #f441a5, #03a9f4);
+      background: -webkit-linear-gradient(135deg, orange 50%, cyan);;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
 

@@ -32,6 +32,7 @@ const TextBlockImg = ({ title, children, subtitle, id }) => {
 const TextBlockImgWrapper = styled.section`
   text-align: center;
   padding: 100px 30px;
+  
 
   .content-container {
     max-width: 500px;
@@ -46,7 +47,7 @@ const TextBlockImgWrapper = styled.section`
   }
 
   h2 {
-    background: -webkit-linear-gradient(45deg, #f441a5, #03a9f4);
+    background: -webkit-linear-gradient(135deg, orange 50%, cyan);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

@@ -7,7 +7,7 @@ const GlobalStyles = createGlobalStyle`
     --transSlow: 0.5s;
     --black: #1f1f1f;
     --charcoal: #3e3e3e;
-    --primaryColor: #f441a5;
+    --primaryColor: Orange;
     --serif: "Playfair Display", serif;
     --sansSerif: "Gothic A1", sans-serif;
     --h1: 2rem;
@@ -19,6 +19,7 @@ const GlobalStyles = createGlobalStyle`
     --footerMenuItem: 0.85rem;
     --para: 1rem;
     --spacing: 1rem;
+    
 
     @media (min-width: 768px) {
       --h1: 2.6rem;
@@ -53,7 +54,7 @@ body {
   font-family: "Gothic A1", sans-serif;
     color: #fff;
     /* background-color: #060c21; */
-    background: linear-gradient(45deg, #060c21, #0d0139);
+    background: -webkit-linear-gradient(80deg, #36454F, #181958);
 }
 
 

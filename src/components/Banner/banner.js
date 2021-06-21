@@ -12,7 +12,7 @@ const Banner = () => {
   const { placeholderImage } = useStaticQuery(
     graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "flames.jpg" }) {
+        placeholderImage: file(relativePath: { eq: "Banner.jpg" }) {
           childImageSharp {
             gatsbyImageData(quality: 90, width: 1920, formats: [AUTO, WEBP])
           }
@@ -46,7 +46,7 @@ const Banner = () => {
             variants={variants}
             transition={{ ease: "easeOut", duration: 0.8, delay: 1 }}
           >
-            It's time to make your business <span>stand out</span>
+            Welcome to <span>Tech Xpert</span>
           </motion.h1>
           <motion.p
             initial="hidden"
@@ -54,8 +54,7 @@ const Banner = () => {
             variants={variants}
             transition={{ ease: "easeOut", duration: 0.8, delay: 1.5 }}
           >
-            Startup is here to help you achieve your business and personal
-            goals, all through a stylish theme
+            Here to help you find the best solution to your technology needs. Including installation, repair <span>&#38;</span> troubleshooting all types of issues on computer and servers. 
           </motion.p>
           <Link to="about" smooth={true} duration={500}>
             <span className="sr-only">Jump to about</span>

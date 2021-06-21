@@ -31,9 +31,10 @@ const PackageWrapper = styled.article`
     padding: 1.5rem;
     border-radius: 4px;
     box-shadow: 0px 0px 22px 7px rgba(0, 0, 0, 0.25);
+    
 
     h2 {
-      background: -webkit-linear-gradient(45deg, #f441a5, #03a9f4);
+      background: -webkit-linear-gradient(135deg, orange 50%, cyan);;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -58,7 +59,7 @@ const PackageWrapper = styled.article`
   &.not-active {
     button {
       background: transparent;
-      border: 1px solid #e609b5;
+      border: 1px solid orange;
     }
   }
 
@@ -82,7 +83,7 @@ const PackageWrapper = styled.article`
       right: 0px;
       bottom: -5px;
       left: 0px;
-      background: linear-gradient(to right, #fc466b, #3f5efb);
+      background: -webkit-linear-gradient(135deg, orange 50%, cyan);
       z-index: -1;
       transform: skew(3deg, 3deg);
       border-radius: 4px;

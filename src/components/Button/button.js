@@ -35,7 +35,7 @@ const ButtonWrapper = styled.button`
   text-transform: uppercase;
   text-decoration: none;
   box-sizing: border-box;
-  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background: linear-gradient(45deg, orange, 50%, #008080);
   background-size: 400%;
   border-radius: 30px;
   border: none;
@@ -60,12 +60,13 @@ const ButtonWrapper = styled.button`
     right: -5px;
     bottom: -5px;
     z-index: -1;
-    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background: -webkit-linear-gradient(200deg, #008080, #e29c45);
     background-size: 400%;
     border-radius: 40px;
     opacity: 0;
     transition: 0.5s;
   }
+  
 
   @keyframes animate {
     0% {
