@@ -11,7 +11,7 @@ module.exports = {
     title: "TechXpert",
     titleTemplate: "%s | Savvy in all IT Solutions",
     description: " Troubleshooting and resolving all your technology needs.",
-    siteUrl: "",
+    siteUrl: "https://thestartup.netlify.com",
     author: "Juan Felipe Comboni",
     authorSite: "",
     image: "",

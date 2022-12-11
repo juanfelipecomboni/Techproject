@@ -5,12 +5,9 @@ export const BannerStyles = styled.section`
     height: 100vh;
     color: #fff;
     position: relative;
-    
-
   }
 
   .hero-content {
-    
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -29,7 +26,6 @@ export const BannerStyles = styled.section`
 
     @media (min-width: 768px) {
       max-width: 650px;
-      
     }
 
     h1 {
@@ -37,10 +33,9 @@ export const BannerStyles = styled.section`
       line-height: 1.2;
 
       span {
-        background: -webkit-linear-gradient(135deg, orange 50%, cyan);
+        background: -webkit-linear-gradient(45deg, #f441a5, #03a9f4);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        
       }
     }
 
@@ -52,7 +47,6 @@ export const BannerStyles = styled.section`
 
       @media (min-width: 768px) {
         font-size: 1.35rem;
-        
       }
 
       @media (min-width: 1200px) {
@@ -67,7 +61,6 @@ export const BannerStyles = styled.section`
 
     @media (min-width: 768px) {
       max-width: 800px;
-      
 
       h1 {
         font-size: 3rem;
@@ -78,7 +71,6 @@ export const BannerStyles = styled.section`
       h1 {
         font-size: 4rem;
       }
-      
     }
   }
 `
